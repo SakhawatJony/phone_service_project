@@ -1,0 +1,181 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    }
+
+/*-------- Menu section start---------------*/
+/* Laptop menu section start */
+.menu-container {
+	width: 100%;
+	height: 80px ;
+	background: white;
+	position: fixed;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .02);
+	z-index: 99;
+}
+
+.logo {
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+
+.logo img {
+	height: 50px;
+	margin-left: 20%;
+	margin-top: 15px;
+}
+
+.menu-item { 
+width: 60%;
+float: right;
+height: 100%;
+}
+.menu-item ul li {
+	line-height: 80px;
+	list-style: none;
+	text-align: center;
+	font-weight: bold;
+	float: left;
+	width: 110px;
+
+	
+}
+
+.menu-item ul li:hover {
+	background: #5927FF;
+	height: 80px;
+}
+.menu-item ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.menu-item li:hover > a{
+	color: white;
+}
+
+.responsive-menu-icon {
+	float: left;
+	width: 10%;
+	height: 100%;
+	text-align: center;
+	display: none;
+}
+.responsive-menu-icon i {
+	line-height: 80px;
+	font-size: 35px;
+	cursor: pointer;
+}
+
+.menu-item ul li:hover > ul {
+	display: inline-block;
+}
+.menu-item ul li ul {
+	display:none;
+	margin-top: 1px;
+}
+.menu-item ul li ul li {
+	background:white;
+	width: 150px;
+	border-top: 1px solid rgba(0, 0, 0, .1);
+	position: relative;
+}
+.menu-item ul li ul li:hover ul {
+	display: inline-block;
+}
+.menu-item ul li ul li ul {
+	display: none;
+	position: absolute;
+	left: 151px;
+	top: -4px;
+
+}
+/*laptop menu section close*/
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+   
+}  
+.hero-container{
+   
+    background-color: #F7FDFF;
+    
+} 
+.home-main{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.home-seconds{
+    background-image: url("img/hero.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-seconds img{
+    width: 80%;
+
+}
+
+.hero-btn{
+    background-color: #5927FF;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/* Features style start  */
+
+.Features-title{
+    text-align: center;
+
+}
+
+.Features{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:5px;
+    margin: auto;
+   
+}
+.Feature{
+    height: 140px;
+    background-color: #ffff;
+    width: 250px;
+    box-shadow: 5px 5px 5px 2px wheat;
+    text-align: center;
+    padding-top: 5px;
+    
+}
+.Feature i{
+    color:#5927FF;
+    font-size: 35px;
+    
+    
+    
+   
+}
+
+.Feature:hover{
+    background-color: #5927FF;
+    color: white;
+}
+
+
+/* Features style Ends  */
+
+
+/* about style start  */
+.about-seconds{
+    padding-left: 30px;
+
+}
+/* about style Ends  */
